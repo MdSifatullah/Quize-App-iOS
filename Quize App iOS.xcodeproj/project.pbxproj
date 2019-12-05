@@ -58,13 +58,37 @@
 			children = (
 				0B3254742398FFF40038A93D /* AppDelegate.swift */,
 				0B3254762398FFF40038A93D /* SceneDelegate.swift */,
-				0B3254782398FFF40038A93D /* ViewController.swift */,
-				0B32547A2398FFF40038A93D /* Main.storyboard */,
 				0B32547D2398FFFA0038A93D /* Assets.xcassets */,
-				0B32547F2398FFFA0038A93D /* LaunchScreen.storyboard */,
+				0B32548A239904DE0038A93D /* Controller */,
+				0B325489239904D20038A93D /* View */,
+				0B325488239904A80038A93D /* Model */,
 				0B3254822398FFFA0038A93D /* Info.plist */,
 			);
 			path = "Quize App iOS";
+			sourceTree = "<group>";
+		};
+		0B325488239904A80038A93D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0B325489239904D20038A93D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0B32547A2398FFF40038A93D /* Main.storyboard */,
+				0B32547F2398FFFA0038A93D /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0B32548A239904DE0038A93D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0B3254782398FFF40038A93D /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
