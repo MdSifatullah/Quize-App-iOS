@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -12,17 +12,17 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Quize_App_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X6T-VV-56t" userLabel="Top View">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="220.66666666666666"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="245.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="QDH-qD-OlF">
-                                        <rect key="frame" x="0.0" y="43.999999999999986" width="414" height="176.66666666666663"/>
+                                        <rect key="frame" x="0.0" y="49" width="414" height="196.5"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" verticalCompressionResistancePriority="749" image="Kids-Free-Download-PNG" translatesAutoresizingMaskIntoConstraints="NO" id="kWe-BU-dPP">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="176.66666666666666"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="196.5"/>
                                             </imageView>
                                         </subviews>
                                     </stackView>
@@ -36,13 +36,13 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yng-6W-xL4">
-                                <rect key="frame" x="0.0" y="220.66666666666663" width="414" height="221"/>
+                                <rect key="frame" x="0.0" y="245.5" width="414" height="245.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="MSw-ja-Lgi">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="221"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="245.5"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="o" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8hS-H7-UUW">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="179.33333333333334"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8hS-H7-UUW">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="179.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="150"/>
                                                 <color key="textColor" red="0.44017137449999999" green="0.46012881779999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -50,8 +50,8 @@
                                                     <fontDescription key="fontDescription" type="system" pointSize="80"/>
                                                 </variation>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Apple" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gZy-zi-9QP">
-                                                <rect key="frame" x="0.0" y="184.33333333333334" width="414" height="36.666666666666657"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gZy-zi-9QP">
+                                                <rect key="frame" x="0.0" y="184.5" width="414" height="61"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <color key="textColor" red="0.10478358761398388" green="0.3033761587305086" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -68,20 +68,20 @@
                                 </constraints>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="d4V-Jq-0OC">
-                                <rect key="frame" x="20" y="481.66666666666669" width="374" height="220.66666666666669"/>
+                                <rect key="frame" x="20" y="531" width="374" height="245"/>
                                 <subviews>
                                     <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oBe-2h-iNc">
-                                        <rect key="frame" x="0.0" y="0.0" width="182" height="220.66666666666666"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="182" height="245"/>
                                         <state key="normal" image="ok"/>
                                         <connections>
-                                            <action selector="RightBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VcX-rO-PPt"/>
+                                            <action selector="ButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zzZ-8W-AZh"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vrt-lY-sIj">
-                                        <rect key="frame" x="192" y="0.0" width="182" height="220.66666666666666"/>
+                                        <rect key="frame" x="192" y="0.0" width="182" height="245"/>
                                         <state key="normal" image="nok"/>
                                         <connections>
-                                            <action selector="RightBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ola-5C-PIN"/>
+                                            <action selector="ButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b1O-nU-4gb"/>
                                         </connections>
                                     </button>
                                 </subviews>
