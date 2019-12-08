@@ -8,10 +8,14 @@
 
 import UIKit
 import  Foundation
+import AVFoundation
 
 class ViewController: UIViewController {
     
     let questionBank = QuestionBank()
+    var audio: AVAudioPlayer!
+    var url = Bundle.main.url(forResource: "wrong_alert", withExtension: ".mp3")
+    var overUrl = Bundle.main.url(forResource: "gameOver", withExtension: ".mp3")
     var counter = 0
     var score = 0
     var userAnswer = false
@@ -34,6 +38,7 @@ class ViewController: UIViewController {
         
         if sender.tag == 1 {
             userAnswer = true
+            
         }
         else{
             userAnswer = false
@@ -67,7 +72,9 @@ class ViewController: UIViewController {
         
         } else {
             
-
+            audio = try! AVAudioPlayer(contentsOf: self.overUrl!)
+            audio.play()
+            
             let alert = UIAlertController(title: "Awesome!", message: "You scored \(score)! Do you want to play again", preferredStyle: .alert)
             
             let restartAction = UIAlertAction(title: "Play Again", style: .default, handler:
@@ -92,7 +99,11 @@ class ViewController: UIViewController {
             
             score += 1
             
+        }else{
+            audio = try! AVAudioPlayer(contentsOf: self.url!)
+            audio.play()
         }
+
         
     }
     

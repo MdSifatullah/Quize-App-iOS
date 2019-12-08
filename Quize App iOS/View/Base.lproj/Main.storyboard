@@ -18,10 +18,10 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X6T-VV-56t" userLabel="Top View">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="245.5"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="QDH-qD-OlF">
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="QDH-qD-OlF">
                                         <rect key="frame" x="0.0" y="49" width="414" height="196.5"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" verticalCompressionResistancePriority="749" image="Kids-Free-Download-PNG" translatesAutoresizingMaskIntoConstraints="NO" id="kWe-BU-dPP">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Kids-Free-Download-PNG" translatesAutoresizingMaskIntoConstraints="NO" id="KD9-XP-lgm">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="196.5"/>
                                             </imageView>
                                         </subviews>
